@@ -6,6 +6,8 @@ var Proxy = Proxy || {};
 	pr.LENGTH_SIZE = 2;
 	pr.TICK_DELAY = 5000;
 
+	pr.testFile = "https://dl.dropboxusercontent.com/u/20459676/test/test.txt";
+
 	pr.current_progress = null;
 	pr.expected_size = 0;
 	pr.response_buffer = "";
